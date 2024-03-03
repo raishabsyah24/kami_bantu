@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "294769528232",
+    "firebase_url": "https://bwaflutix-2139c.firebaseio.com",
+    "project_id": "bwaflutix-2139c",
+    "storage_bucket": "bwaflutix-2139c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294769528232:android:e0f26ae6e22afa4683619d",
+        "android_client_info": {
+          "package_name": "com.example.bwa_flutix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294769528232-msc3po36fnnuqj9cbqri8hdigloptp3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCex5GaD69AcUNvMH8obwUdOVPzCTVz3NA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294769528232-msc3po36fnnuqj9cbqri8hdigloptp3g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "294769528232-9s95d806alrlkh0mjt3kqj1bgj8n4c89.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseAuthenticationTutorial"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294769528232:android:0984efc4d8f410db83619d",
+        "android_client_info": {
+          "package_name": "com.example.kami_bantu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294769528232-msc3po36fnnuqj9cbqri8hdigloptp3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCex5GaD69AcUNvMH8obwUdOVPzCTVz3NA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294769528232-msc3po36fnnuqj9cbqri8hdigloptp3g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "294769528232-9s95d806alrlkh0mjt3kqj1bgj8n4c89.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseAuthenticationTutorial"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
