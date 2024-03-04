@@ -50,18 +50,17 @@ class _MyButtomNavBarState extends State<MyBottomNavBar> {
           items: [
             BottomNavigationBarItem(
                 icon: new Image.asset(
-                  AppAssets.home_icon,
+                  AppAssets.onboard_dua,
                 ),
                 label: "Home"),
             BottomNavigationBarItem(
-              icon: new Image.asset(AppAssets.message_icon),
+              icon: new Image.asset(AppAssets.onboard_dua),
               label: "Find",
             ),
             BottomNavigationBarItem(
-                icon: new Image.asset(AppAssets.task_icon), label: "Chats"),
+                icon: new Image.asset(AppAssets.onboard_dua), label: "Chats"),
             BottomNavigationBarItem(
-                icon: new Image.asset(AppAssets.profile_icon),
-                label: "Profile"),
+                icon: new Image.asset(AppAssets.onboard_dua), label: "Profile"),
           ]),
       body: pages[myCurrentIndex],
     );

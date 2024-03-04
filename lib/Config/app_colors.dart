@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class AppColors {
   static const primary = Colors.green;
-  static const dasar = Color.fromARGB(255, 255, 255, 255);
-  static const biru = Color.fromARGB(255, 13, 109, 253);
+  static const biru = Color.fromARGB(255, 158, 200, 185);
+  static const dasar = Color.fromARGB(255, 9, 38, 53);
   static const grey = Color.fromARGB(255, 120, 133, 143);
   static const login = Color.fromARGB(255, 236, 236, 236);
   static const bar = Color.fromARGB(255, 236, 236, 236);

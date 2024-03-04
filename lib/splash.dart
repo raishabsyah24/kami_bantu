@@ -33,11 +33,11 @@ class _SplashPageState extends State<SplashPage> {
       height: 200,
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage(AppAssets.splash),
+          image: AssetImage(AppAssets.onboard_dua),
           fit: BoxFit.cover,
         ),
       ),
-      child: Image.asset(AppAssets.logo_utama),
+      child: Image.asset(AppAssets.onboard_dua),
     );
   }
 }

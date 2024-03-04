@@ -167,7 +167,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Image.asset(
-                        AppAssets.profile,
+                        AppAssets.onboard_dua,
                         height: 24,
                         width: 24,
                       ),
@@ -195,7 +195,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Image.asset(
-                        AppAssets.statistik,
+                        AppAssets.onboard_dua,
                         height: 24,
                         width: 24,
                       ),
@@ -222,7 +222,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Image.asset(
-                        AppAssets.languange,
+                        AppAssets.onboard_dua,
                         height: 24,
                         width: 24,
                       ),
@@ -249,7 +249,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Image.asset(
-                        AppAssets.setting,
+                        AppAssets.onboard_dua,
                         height: 24,
                         width: 24,
                       ),
@@ -276,7 +276,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Image.asset(
-                        AppAssets.about,
+                        AppAssets.onboard_dua,
                         height: 24,
                         width: 24,
                       ),
@@ -306,7 +306,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Image.asset(
-                        AppAssets.logout,
+                        AppAssets.onboard_dua,
                         height: 24,
                         width: 24,
                       ),

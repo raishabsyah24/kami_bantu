@@ -63,7 +63,7 @@ class _TabBarPageState extends State<TabBarPage>
                           fontSize: 16, fontWeight: FontWeight.w500),
                     ),
                     DView.spaceWidth(92),
-                    Image.asset(AppAssets.mi_filter)
+                    Image.asset(AppAssets.onboard_dua)
                   ],
                 ),
               ),
