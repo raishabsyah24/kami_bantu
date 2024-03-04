@@ -40,8 +40,8 @@ class _MyButtomNavBarState extends State<MyBottomNavBar> {
       bottomNavigationBar: BottomNavigationBar(
           currentIndex: myCurrentIndex,
           type: BottomNavigationBarType.fixed,
-          selectedItemColor: AppColors.biru,
-          unselectedItemColor: AppColors.grey,
+          selectedItemColor: AppColors.button,
+          unselectedItemColor: AppColors.background,
           onTap: (index) {
             setState(() {
               myCurrentIndex = index;

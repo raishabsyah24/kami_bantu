@@ -67,7 +67,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   height: 174,
                   width: 343,
                   decoration: BoxDecoration(
-                    color: AppColors.bar,
+                    color: AppColors.utama,
                     borderRadius: BorderRadius.circular(16.0),
                   ),
                   child: Padding(
@@ -80,7 +80,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           style: GoogleFonts.roboto(
                               fontSize: 16,
                               fontWeight: FontWeight.w500,
-                              color: AppColors.biru),
+                              color: AppColors.button),
                         ),
                         // ignore: deprecated_member_use
                         DView.spaceHeight(14),

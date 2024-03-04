@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:kami_bantu/Pages/loginPage.dart';
-import 'package:kami_bantu/Components/color.dart';
 import 'package:kami_bantu/Components/onboardingData.dart';
 import 'package:kami_bantu/Config/app_colors.dart';
 
@@ -60,7 +59,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                       controller.items[currentIndex].title,
                       style: const TextStyle(
                           fontSize: 20,
-                          color: primaryColor,
+                          color: AppColors.button,
                           fontWeight: FontWeight.bold),
                       textAlign: TextAlign.center,
                     ),
@@ -93,7 +92,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
               margin: const EdgeInsets.symmetric(horizontal: 2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                color: currentIndex == index ? primaryColor : Colors.grey,
+                color: currentIndex == index ? AppColors.button : Colors.grey,
               ),
               height: 7,
               width: currentIndex == index ? 46 : 13,
@@ -108,7 +107,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
       width: MediaQuery.of(context).size.width * .9,
       height: 55,
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(16), color: AppColors.biru),
+          borderRadius: BorderRadius.circular(16), color: AppColors.button),
       child: TextButton(
         onPressed: () {
           setState(() {
@@ -137,7 +136,9 @@ class _OnboardingPageState extends State<OnboardingPage> {
         child: Text(
           currentIndex == controller.items.length - 1 ? "" : "Skip",
           style: const TextStyle(
-              color: AppColors.biru, fontSize: 18, fontWeight: FontWeight.bold),
+              color: AppColors.button,
+              fontSize: 18,
+              fontWeight: FontWeight.bold),
         ),
       ),
     );

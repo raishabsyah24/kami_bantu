@@ -76,20 +76,20 @@ class _TabBarPageState extends State<TabBarPage>
                     // height: 50,
                     width: MediaQuery.of(context).size.height,
                     decoration: BoxDecoration(
-                        color: AppColors.bar,
+                        color: AppColors.txt,
                         borderRadius: BorderRadius.circular(5)),
                     child: Column(
                       children: [
                         Padding(
                           padding: EdgeInsets.all(5),
                           child: TabBar(
-                            unselectedLabelColor: AppColors.hitam,
-                            labelColor: AppColors.dasar,
+                            unselectedLabelColor: AppColors.utama,
+                            labelColor: AppColors.background,
                             indicatorColor: Colors.white,
                             labelPadding: EdgeInsets.symmetric(horizontal: 10),
                             indicatorWeight: 2,
                             indicator: BoxDecoration(
-                              color: AppColors.biru,
+                              color: AppColors.button,
                               borderRadius: BorderRadius.circular(5),
                             ),
                             controller: tabController,

@@ -2,11 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:kami_bantu/Pages/onBoarding.dart';
-import 'package:kami_bantu/BottomNav/bottomNavBar.dart';
 import 'package:kami_bantu/Config/app_assets.dart';
-import 'package:kami_bantu/firebase/sign_in_provider.dart';
-import 'package:provider/provider.dart';
-import '../Config/next_screen.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({Key? key}) : super(key: key);

@@ -18,7 +18,7 @@ class Finished extends StatelessWidget {
               height: 134,
               width: 337,
               decoration: BoxDecoration(
-                  color: AppColors.light_blue.withOpacity(0.2),
+                  color: AppColors.button.withOpacity(0.2),
                   borderRadius: BorderRadius.all(Radius.circular(8))),
               child: Padding(
                 padding: const EdgeInsets.only(left: 14, top: 10, right: 9.48),
@@ -37,14 +37,14 @@ class Finished extends StatelessWidget {
                           child: Container(
                             height: 19,
                             decoration: BoxDecoration(
-                                color: AppColors.finished.withOpacity(0.8),
+                                color: AppColors.button.withOpacity(0.8),
                                 borderRadius:
                                     BorderRadius.all(Radius.circular(4.76))),
                             margin: EdgeInsets.all(10),
                             child: Text(
-                              "  Finished  ",
+                              "  button  ",
                               style: GoogleFonts.roboto(
-                                  fontSize: 10, color: AppColors.dasar),
+                                  fontSize: 10, color: AppColors.background),
                             ),
                           ),
                         ),
@@ -85,7 +85,7 @@ class Finished extends StatelessWidget {
               height: 134,
               width: 337,
               decoration: BoxDecoration(
-                  color: AppColors.light_blue.withOpacity(0.2),
+                  color: AppColors.button.withOpacity(0.2),
                   borderRadius: BorderRadius.all(Radius.circular(8))),
               child: Padding(
                 padding: const EdgeInsets.only(left: 14, top: 10, right: 9.48),
@@ -104,14 +104,14 @@ class Finished extends StatelessWidget {
                           child: Container(
                             height: 19,
                             decoration: BoxDecoration(
-                                color: AppColors.finished.withOpacity(0.8),
+                                color: AppColors.button.withOpacity(0.8),
                                 borderRadius:
                                     BorderRadius.all(Radius.circular(4.76))),
                             margin: EdgeInsets.all(10),
                             child: Text(
-                              "  Finished  ",
+                              "  button  ",
                               style: GoogleFonts.roboto(
-                                  fontSize: 10, color: AppColors.dasar),
+                                  fontSize: 10, color: AppColors.background),
                             ),
                           ),
                         ),
