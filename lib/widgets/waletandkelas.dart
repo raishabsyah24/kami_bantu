@@ -1,4 +1,6 @@
+import 'package:d_view/d_view.dart';
 import 'package:flutter/material.dart';
+import 'package:kami_bantu/config/appAssets.dart';
 import 'package:kami_bantu/config/appColors.dart';
 
 class Waletandkelas extends StatelessWidget {
@@ -18,36 +20,110 @@ class Waletandkelas extends StatelessWidget {
             offset: Offset(4, 8), // Shadow position
           ),
         ],
-        borderRadius: BorderRadius.circular(12),
+        borderRadius: BorderRadius.circular(4),
         border: Border.all(color: AppColors.text),
       ),
       child: Row(
         children: [
+          // Wallet
           Container(
             height: MediaQuery.of(context).size.height * 0.3,
             width: MediaQuery.of(context).size.width * 0.3,
             decoration: BoxDecoration(
               color: AppColors.white,
               borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(12),
-                bottomLeft: Radius.circular(12),
+                topLeft: Radius.circular(4),
+                bottomLeft: Radius.circular(4),
               ),
             ),
+            child: Row(
+              children: [
+                // ignore: deprecated_member_use
+                DView.spaceWidth(),
+                Image.asset(AppAssets.home),
+                // ignore: deprecated_member_use
+                DView.spaceWidth(4),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      "Rp. 300.000",
+                      style: TextStyle(fontSize: 10),
+                    ),
+                    Text(
+                      "Top-Up E-Walet",
+                      style: TextStyle(fontSize: 8),
+                    ),
+                  ],
+                )
+              ],
+            ),
           ),
-          Container(
-            height: MediaQuery.of(context).size.height,
-            width: MediaQuery.of(context).size.width * 0.3,
-            decoration: BoxDecoration(color: AppColors.white),
-          ),
+          // Member
           Container(
             height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width * 0.3,
             decoration: BoxDecoration(
               color: AppColors.white,
-              borderRadius: BorderRadius.only(
-                topRight: Radius.circular(12),
-                bottomRight: Radius.circular(12),
+              border: Border.symmetric(
+                vertical: BorderSide(color: AppColors.text),
               ),
+            ),
+            child: Row(
+              children: [
+                // ignore: deprecated_member_use
+                DView.spaceWidth(),
+                Image.asset(AppAssets.home),
+                // ignore: deprecated_member_use
+                DView.spaceWidth(4),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      "Rp. 300.000",
+                      style: TextStyle(fontSize: 10),
+                    ),
+                    Text(
+                      "Top-Up E-Walet",
+                      style: TextStyle(fontSize: 8),
+                    ),
+                  ],
+                )
+              ],
+            ),
+          ),
+          // Kelas
+          Container(
+            height: MediaQuery.of(context).size.height,
+            width: MediaQuery.of(context).size.width * 0.29,
+            decoration: BoxDecoration(
+              color: AppColors.white,
+              borderRadius: BorderRadius.only(
+                topRight: Radius.circular(4),
+                bottomRight: Radius.circular(4),
+              ),
+            ),
+            child: Row(
+              children: [
+                // ignore: deprecated_member_use
+                DView.spaceWidth(),
+                Image.asset(AppAssets.home),
+                // ignore: deprecated_member_use
+                DView.spaceWidth(4),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      "Rp. 300.000",
+                      style: TextStyle(fontSize: 10),
+                    ),
+                    Text(
+                      "Top-Up E-Walet",
+                      style: TextStyle(fontSize: 8),
+                    ),
+                  ],
+                )
+              ],
             ),
           ),
         ],
